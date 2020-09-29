@@ -426,10 +426,10 @@ class MainWindow(QMainWindow):
 
 style = """
     QMainWindow {
-        background-color: #fb7756;
+        background-color: #DCDCDC;
     }
     QMenuBar {
-        background-color: #e74645;
+        background-color: #2F4F4F;
         color: white;
     }
     QMenuBar::item {
@@ -437,11 +437,11 @@ style = """
         color: white;
     }
     QMenuBar::item:selected {
-        background-color: #facd60;
+        background-color: #FFFFFF;
         color: black;
     }
     QMenu{
-        background-color: #e74645;
+        background-color: #A9A9A9;
         color: white;
     }
     QMenu::item:selected{
@@ -449,14 +449,14 @@ style = """
         color: black;
     }
     QStatusBar {
-        background-color: #e74645;
+        background-color: #2F4F4F;
         color: white;
     }
 
     QTableWidget QHeaderView::section {
         font-size: 15px;
         font-weight: bold;
-        background-color: #facd60;
+        background-color: #808080;
         color: white;
         padding-left: 4px;
         border: 1px solid #6c6c6c;
@@ -467,7 +467,7 @@ style = """
     }
 
     QTableWidget::item {
-        background-color: #1ac0c6;
+        background-color: #778899;
         color: white; 
     }
      
@@ -476,14 +476,14 @@ style = """
         color: #e74645; 
     }
     QMessageBox {
-        background-color: #fdfa66;
+        background-color: #C0C0C0;
         color: #e74645;
     }
     QMessageBox QLabel {
-        color: #e74645;
+        color: #000000;
     }
     QTableWidget QScrollBar {
-        background-color: #e74645;
+        background-color: #808080;
     }
 """
 
